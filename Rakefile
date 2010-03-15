@@ -12,6 +12,9 @@ begin
     s.homepage = "http://github.com/mtrudel/menutree"
     s.authors = ["Mat Trude", "Grant McInnes"]
   end
+  Jeweler::RubyforgeTasks.new do |rubyforge|
+     rubyforge.doc_task = "yardoc"
+  end
 rescue LoadError
   puts "Jeweler not available. Install it with: gem install jeweler"
 end
