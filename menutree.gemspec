@@ -10,7 +10,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mat Trude", "Grant McInnes"]
   s.date = %q{2010-03-16}
-  s.description = %q{a simple hierachical command line shell}
+  s.description = %q{Menutree is a framework for presenting a recursive menu shell on the command 
+    line, inspired by the CLI found in Cisco IOS and similar products}
   s.email = %q{mat@geeky.net}
   s.extra_rdoc_files = [
     "README"
@@ -20,8 +21,8 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/base.rb",
-     "menutree.gemspec",
-     "menutree.rb"
+     "lib/menutree.rb",
+     "menutree.gemspec"
   ]
   s.homepage = %q{http://github.com/mtrudel/menutree}
   s.rdoc_options = ["--charset=UTF-8"]
