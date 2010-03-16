@@ -11,6 +11,7 @@ begin
     s.email = "mat@geeky.net"
     s.homepage = "http://github.com/mtrudel/menutree"
     s.authors = ["Mat Trude", "Grant McInnes"]
+    s.add_dependency 'activesupport'
   end
   Jeweler::RubyforgeTasks.new do |rubyforge|
      rubyforge.doc_task = "yardoc"
