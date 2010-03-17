@@ -5,20 +5,20 @@
 
 Gem::Specification.new do |s|
   s.name = %q{menutree}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Mat Trude", "Grant McInnes"]
+  s.authors = ["Mat Trudel", "Grant McInnes"]
   s.date = %q{2010-03-16}
   s.description = %q{Menutree is a framework for presenting a recursive menu shell on the command 
     line, inspired by the CLI found in Cisco IOS and similar products}
   s.email = %q{mat@geeky.net}
   s.extra_rdoc_files = [
-    "README"
+    "README.md"
   ]
   s.files = [
     ".gitignore",
-     "README",
+     "README.md",
      "Rakefile",
      "VERSION",
      "lib/base.rb",
