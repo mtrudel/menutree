@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{menutree}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mat Trude", "Grant McInnes"]
@@ -17,7 +17,8 @@ Gem::Specification.new do |s|
     "README"
   ]
   s.files = [
-    "README",
+    ".gitignore",
+     "README",
      "Rakefile",
      "VERSION",
      "lib/base.rb",

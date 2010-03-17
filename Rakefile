@@ -11,7 +11,7 @@ begin
     line, inspired by the CLI found in Cisco IOS and similar products"
     s.email = "mat@geeky.net"
     s.homepage = "http://github.com/mtrudel/menutree"
-    s.authors = ["Mat Trude", "Grant McInnes"]
+    s.authors = ["Mat Trudel", "Grant McInnes"]
     s.add_dependency 'activesupport'
   end
   Jeweler::GemcutterTasks.new
