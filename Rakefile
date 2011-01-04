@@ -2,23 +2,6 @@ require 'rake'
 require 'rake/testtask'
 require 'rcov/rcovtask'
 
-begin
-  require 'jeweler'
-  Jeweler::Tasks.new do |s|
-    s.name = "menutree"
-    s.summary = "a simple hierachical command line shell"
-    s.description = "Menutree is a framework for presenting a recursive menu shell on the command 
-    line, inspired by the CLI found in Cisco IOS and similar products"
-    s.email = "mat@geeky.net"
-    s.homepage = "http://github.com/mtrudel/menutree"
-    s.authors = ["Mat Trudel", "Grant McInnes"]
-    s.add_dependency 'activesupport'
-  end
-  Jeweler::GemcutterTasks.new
-rescue LoadError
-  puts "Jeweler not available. Install it with: gem install jeweler"
-end
-
 Rake::TestTask.new do |t|
   t.libs << 'lib'
   t.pattern = 'test/**/*_test.rb'
