@@ -1,5 +1,5 @@
-$:.unshift(File.dirname(__FILE__)) unless
-  $:.include?(File.dirname(__FILE__)) || $:.include?(File.expand_path(File.dirname(__FILE__)))
+$:.unshift(File.join(File.dirname(__FILE__), 'menutree')) unless
+  $:.include?(File.join(File.dirname(__FILE__), 'menutree')) || $:.include?(File.expand_path(File.join(File.dirname(__FILE__), 'menutree')))
 
-require 'base'
+require 'tree'
 
