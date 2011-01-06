@@ -50,8 +50,10 @@ module MenuTree
         elsif File.directory?(File.join(@directory, to_run))
           menu = MenuTree::Tree.new(File.join(@directory, to_run), self)
           menu.repl(cmds)
-        else 
-          @leaf.send to_run, cmds rescue puts "Unknown command #{to_run}"
+        elsif leaf_commands.include? to_run
+          @leaf.send to_run, cmds
+        else
+          puts "Unknown command #{to_run}"
         end
         to_run = nil
         return if one_shot
