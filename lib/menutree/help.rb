@@ -10,7 +10,7 @@ module MenuTree
   module Help
     def display_help
       display_help_section("Built-in commands", BUILTINS)
-      display_help_section("Leaf commands", @leaf.commands)
+      display_help_section("#{@prompt} commands", @leaf.commands)
       display_help_section("Submenus", submenus)
     end
 
