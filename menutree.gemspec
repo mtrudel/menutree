@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{menutree}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.authors = ["Mat Trudel", "Grant McInnes"]
   s.date = %q{2011-01-05}
